@@ -4,30 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>会社概要 - 有限会社 K Laboratory</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- ヘッダー（共通） -->
     <header>
-        <!-- ロゴ -->
-        <div class="logo">
-            <!-- ロゴ画像 -->
+        <div class="container">
+            <!-- ロゴ -->
+            <div class="logo">
+                K Laboratory
+            </div>
+            
+            <!-- ナビゲーションメニュー -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </nav>
         </div>
-        
-        <!-- ナビゲーションメニュー -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="privacy.html">Privacy Policy</a></li>
-            </ul>
-        </nav>
     </header>
 
     <!-- 会社概要セクション -->
     <section class="company-info">
-        <h1>会社概要</h1>
-        
-        <dl>
+        <div class="container">
+            <h1>会社概要</h1>
+            
+            <dl>
             <!-- 会社名 -->
             <dt>会社名</dt>
             <dd><!-- 有限会社 K Laboratory --></dd>
@@ -52,14 +56,16 @@
             <dt>事業内容</dt>
             <dd><!-- 中小企業を対象としたITコンサルティング --></dd>
         </dl>
+        </div>
     </section>
 
     <!-- ミッション・ビジョンセクション -->
     <section class="mission-vision">
-        <h2>ミッション・ビジョン</h2>
-        
-        <!-- 企業理念 -->
-        <div class="mission">
+        <div class="container">
+            <h2>ミッション・ビジョン</h2>
+            
+            <!-- 企業理念 -->
+            <div class="mission">
             <h3>企業理念</h3>
             <p><!-- 企業理念の内容 --></p>
         </div>
@@ -69,14 +75,16 @@
             <h3>目指す姿</h3>
             <p><!-- 目指す姿の内容 --></p>
         </div>
+        </div>
     </section>
 
     <!-- サービス詳細セクション -->
     <section class="service-details">
-        <h2>サービス詳細</h2>
-        
-        <!-- 各サービスの詳細説明 -->
-        <div class="service-detail-items">
+        <div class="container">
+            <h2>サービス詳細</h2>
+            
+            <!-- 各サービスの詳細説明 -->
+            <div class="service-detail-items">
             <!-- システム導入支援 -->
             <div class="service-detail">
                 <h3>システム導入支援</h3>
@@ -113,23 +121,26 @@
                 <li><!-- フォローアップ --></li>
             </ol>
         </div>
+        </div>
     </section>
 
     <!-- フッター（共通） -->
     <footer>
-        <!-- 会社名 -->
-        <p class="company-name"><!-- 有限会社 K Laboratory --></p>
-        
-        <!-- リンク -->
-        <nav class="footer-nav">
-            <ul>
-                <li><a href="about.html">会社概要</a></li>
-                <li><a href="privacy.html">プライバシーポリシー</a></li>
-            </ul>
-        </nav>
-        
-        <!-- コピーライト -->
-        <p class="copyright"><!-- &copy; 2024 有限会社 K Laboratory --></p>
+        <div class="container">
+            <!-- 会社名 -->
+            <p class="company-name"><!-- 有限会社 K Laboratory --></p>
+            
+            <!-- リンク -->
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="about.html">会社概要</a></li>
+                    <li><a href="privacy.html">プライバシーポリシー</a></li>
+                </ul>
+            </nav>
+            
+            <!-- コピーライト -->
+            <p class="copyright"><!-- &copy; 2024 有限会社 K Laboratory --></p>
+        </div>
     </footer>
 </body>
 </html>
