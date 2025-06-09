@@ -18,3 +18,7 @@ Thumbs.db
 # Temporary files
 *.tmp
 *~
+
+# Privacy policy source file
+pb.txt
+pb.png
